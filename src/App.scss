@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Montaga';
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background: #fcf9f7;
+  .sections {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 64px 0;
+  }
+  @media (max-width: 768px) {
+    gap: 48px;
+  }
+}
+
+.button-music {
+  border: 1px solid black !important;
+  border-radius: 50% !important;
+  padding: 10px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-left: 80% !important;
+  position: fixed;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  top: 15px;
+  right: 15px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.footer {
+  background: #fff;
+  width: 100vw;
+  height: 120px;
+  margin-top: 40px;
+  padding: 80px;
+}
