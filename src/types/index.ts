@@ -11,4 +11,22 @@ export interface Guest {
     es:string 
   }
   
+
+  export type Names = {
+    name: string;
+  };
+
+  export interface EventI {
+    saveTitle: string;
+    parents: Names[] | null;
+    godFathers: Names[] | null;
+    ceremonyTime: null | string;
+    partyTime: string;
+    dress: string;
+    present: string;
+    date: string;
+    month: number;
+    partyMapRef: string;
+    photo: string;
+  }
   

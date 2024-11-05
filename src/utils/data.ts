@@ -5,6 +5,7 @@ import { CardInt } from '../interfaces';
 import instagram from '../assets/instagram.svg';
 import facebook from '../assets/facebook.svg';
 import linkTree from '../assets/linkTree.svg';
+import { EventI } from '../types';
 
 export const cardItems: CardInt[] = [
   {
@@ -125,28 +126,31 @@ export const MONTHS = {
   },
 };
 
-export const EVENT = {
+export const EVENT: EventI = {
   saveTitle: 'Save The Date',
-  parents: [
-    {
-      name: 'Nombre Prueba',
-    },
-    {
-      name: 'Nombre Prueba',
-    },
-  ],
-  godFathers: [
-    {
-      name: 'Nombre Prueba',
-    },
-    {
-      name: 'Nombre Prueba',
-    },
-  ],
+  parents:null,
+  // parents: [
+  //   {
+  //     name: 'Elías Juvencio García de León',
+  //   },
+  //   {
+  //     name: 'Maria de los Angeles Isabeles Escobar',
+  //   },
+  //   {
+  //     name: 'Félix Rincon Pulido ',
+  //   },
+  //   {
+  //     name: 'Elpidia Reyna Ceballos',
+  //   },
+  // ],
+  godFathers: null,
   ceremonyTime: '05:30 pm',
   partyTime: '7:00 pm',
   dress: 'No vestidos verdes ni blancos',
   present: 'Transferencia o Sobres 🎁.',
   date: 'jan 25 2025 17:30:00',
   month: 0,
+  partyMapRef:
+    'https://www.google.com/maps/place/Dos+Vistas+Jard%C3%ADn/@19.1999837,-103.7229745,15z/data=!4m2!3m1!1s0x0:0x14a4dceb36ab7767?sa=X&ved=1t:2428&ictx=111',
+  photo: 'https://i.ibb.co/94Ygw0q/daniela-elias19.jpg',
 };
